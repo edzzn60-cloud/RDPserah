@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "dzennaja-1",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
@@ -41,11 +41,12 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "ip": "100.78.221.77",
       "status": "ok",
-      "magicdns": "dzennaja-1.tail49b6af.ts.net.",
-      "hostname": "Dzennaja-1",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     }
   },
   "media": {
@@ -104,5 +105,6 @@
     "errors": [],
     "public_port": false
   },
-  "heartbeat_at": "2026-10-14T16:20:51.5057173Z"
+  "heartbeat_at": "2026-10-14T16:20:51.5057173Z",
+  "stopped_at": "2026-10-14T16:23:01Z"
 }
